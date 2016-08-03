@@ -504,8 +504,9 @@ function updatePositions() {
 
   var items = document.querySelectorAll('.mover');
   var scrollH = (document.body.scrollTop / 1250);
+  var phase;
   for (var i = 0; i < items.length; i++) {
-    var phase = Math.sin(scrollH + (i % 5));
+    phase = Math.sin(scrollH + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
 
