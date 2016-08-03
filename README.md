@@ -1,13 +1,13 @@
 #Modifications Made
 
-Index.html
+###Index.html
 - async for js and move to end of file
 - media query for print.css
 - inline styles.css
 - combine styles for body, header, and footer
 - make all styles same line, and remove extra spaces (manual minify)
 - download pagespeed optimized images and perfmatters.js
-- use webfont loader for Open SAns
+- use webfont loader for Open Sans
 
 ## Website Performance Optimization portfolio project
 
