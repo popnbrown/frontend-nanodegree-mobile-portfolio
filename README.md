@@ -16,6 +16,7 @@
 - use transform rather than set left style everytime
 - use getElementsByClassName rather than querySelector
 - backface-visibility hidden for pizzas
+- move items outside of updatePosition
 
 #Original README
 
