@@ -12,15 +12,17 @@
 ###Pizza.html - Main.JS
 - moved scrollTop calc out of for loop
 - moved phase var declaration out of for loop
-- only create 32 pizzas
+- only create pizzas as necessary
 - use transform rather than set left style everytime
 - use getElementsByClassName rather than querySelector
 - backface-visibility hidden for pizzas
 - move items outside of updatePosition
-- created pizzaResize.js to make worker do resizing
+- optimize pizza.png
 - merged switchSizer with changeSlider
-- removed changeSlider function, made switch statement execute within resizePizzas
+- removed all function calling from resizePizzas
+- removed determineDX and use percentage for width
 - change to getElementByID instead of querySelector
+- move queryselection outside of for loop
 
 #Original README
 
