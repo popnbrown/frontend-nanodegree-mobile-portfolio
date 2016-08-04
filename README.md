@@ -17,6 +17,10 @@
 - use getElementsByClassName rather than querySelector
 - backface-visibility hidden for pizzas
 - move items outside of updatePosition
+- created pizzaResize.js to make worker do resizing
+- merged switchSizer with changeSlider
+- removed changeSlider function, made switch statement execute within resizePizzas
+- change to getElementByID instead of querySelector
 
 #Original README
 
